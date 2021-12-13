@@ -1,6 +1,6 @@
 # Flight-fare-prediction
 
-/Users/sujithasunkara/Documents/Data science projects/Flight fare prediction/download.jpeg
+! /Users/sujithasunkara/Documents/Data science projects/Flight fare prediction/download.jpeg
 
 The number of people who travel by plane has risen dramatically in recent years. 
 Prices change constantly owing to various situations, making it difficult for airlines to maintain pricing. 
