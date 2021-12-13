@@ -16,7 +16,7 @@ Kaggle was used to obtain the dataset.There are 10683 records in total, with 11 
 
 ## Exploratory Data Analysis:
 
-In this[notebook]( https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction-%20EDA.ipynb),I perform basic exploratory data analysis on the dataset in order to gain a better knowledge of it. Matplotlib and seaborn are two Python packages that are used. I talked about the following topics:
+In this [notebook]( https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction-%20EDA.ipynb),I perform basic exploratory data analysis on the dataset in order to gain a better knowledge of it. Matplotlib and seaborn are two Python packages that are used. I talked about the following topics:
 - Understanding the facts as a whole
 - Visualizing the trends to analyze each of the factors and their interactions.
 - With the help of existing features, I created a few new features and visualized them.
@@ -56,12 +56,32 @@ Route	Price
 52	BOM → JDH → JAI → DEL → HYD	18293.000000
 50	BOM → JAI → DEL → HYD	17926.000000
 14	BLR → CCU → BBI → HYD → VGA → DEL	17686.000000
-## source and destination that takes the longest?
+### source and destination that takes the longest?
 <img width="286" alt="Screen Shot 2021-12-13 at 2 58 08 PM" src="https://user-images.githubusercontent.com/80868520/145879867-abea575a-8e7a-4d54-b64c-1cd696aa34c6.png">
 
 ## Feature Engineering and Preprocessing :
+In this [notebook])(https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction%20-%20Feature%20Engineering.ipynb), 
+- For the categorical features, created dummy variables.
+- Removed Outliers in target variable and performed Boxcox transformation for price variable.
+<img width="1068" alt="Screen Shot 2021-12-13 at 4 18 06 PM" src="https://user-images.githubusercontent.com/80868520/145890372-d8513547-26ff-4ec1-8d59-3e9b2a345acc.png">
+## Regression Models :
+Created models, which were then evaluated in this [notebook](https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Flight%20prediction%20model.ipynb),
+- The data is split into two sections: training and validation. I use the training set to find the model and then the validation set to test it on unknown data.
+- Regression Machine learning models were used and seected best model which have lowest MAE , MSE, RMSE and high R2 score . Dcision Tree model were performd good in training and not in validation , where Random forest model performed best in both training and validation data . 
+- Hyperparameter tuning were performed on the Random Forest model and test it on unknown data.
+## Model Findings :
+Regression models performance 
+------Performance of Training data--------
+<img width="788" alt="Screen Shot 2021-12-13 at 4 29 04 PM" src="https://user-images.githubusercontent.com/80868520/145891755-c8951f27-0db8-44fb-aa1a-accd19c9de09.png">
+------Performance of validation data--------
+<img width="715" alt="Screen Shot 2021-12-13 at 4 29 59 PM" src="https://user-images.githubusercontent.com/80868520/145891906-3f9af37d-227b-4510-9502-0e9682224810.png">
 
-
+After hyperparametertyuning the Random forest regression and fitting with best params , the results are:
+MAE: 734.6088
+MSE: 2132548.6219
+RMSE: 1460.3248
+R2 score: 0.88
+Which explains 88% of the data fits the model.
 
 
 
