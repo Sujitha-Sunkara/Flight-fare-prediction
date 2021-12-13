@@ -24,14 +24,17 @@ In this notebook, I perform basic exploratory data analysis on the dataset in or
 ## Data Analysis:
 ### Univariate Analysis:
 <img width="500" alt="Screen Shot 2021-12-13 at 2 20 11 PM" src="https://user-images.githubusercontent.com/80868520/145874872-e0a3cd70-5c31-4689-ac88-d869b7784572.png"> <img width="500" alt="Screen Shot 2021-12-13 at 2 20 27 PM" src="https://user-images.githubusercontent.com/80868520/145874905-31599364-4dc5-4407-aa7f-a432fea194b4.png">
+
 From different Univariate analysis, it been observed that 
 - Jet Airways has the highest number of flights
 - More flights originate from Delhi, which is followed by Kolkata and least in chennai
 - The bulk of flights arrive in Cochin as their final destination.
 - Most of the flights has one stop.
 - more passengers travelled in the month of may followed by june. This is due to that mostly many people planned their vacations in summer.
-- 
-<img width="500" alt="Screen Shot 2021-12-13 at 2 20 55 PM" src="https://user-images.githubusercontent.com/80868520/145874940-772ae0d5-ff1c-437c-a1fd-6914f58ecd18.png"> <img width="500" alt="Screen Shot 2021-12-13 at 2 21 24 PM" src="https://user-images.githubusercontent.com/80868520/145874974-260f3459-7d45-4d1b-b2cf-5866ebb07940.png">
+
+<img width="500" alt="Screen Shot 2021-12-13 at 2 20 55 PM" src="https://user-images.githubusercontent.com/80868520/145874940-772ae0d5-ff1c-437c-a1fd-6914f58ecd18.png">
+Majority if the flighhts fare lie in range of 3000 to 18000
+<img width="500" alt="Screen Shot 2021-12-13 at 2 21 24 PM" src="https://user-images.githubusercontent.com/80868520/145874974-260f3459-7d45-4d1b-b2cf-5866ebb07940.png">
 <img width="500" alt="Screen Shot 2021-12-13 at 2 21 43 PM" src="https://user-images.githubusercontent.com/80868520/145875011-fb42d2d4-c19f-4a38-a201-dbb1d6f3cdc9.png"> <img width="500" alt="Screen Shot 2021-12-13 at 2 21 53 PM" src="https://user-images.githubusercontent.com/80868520/145875054-c0f0f2d2-2b86-4df4-b419-1b6c1786aa86.png">
 
 
