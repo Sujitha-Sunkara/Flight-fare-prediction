@@ -61,12 +61,12 @@ Route	Price
 <img width="286" alt="Screen Shot 2021-12-13 at 2 58 08 PM" src="https://user-images.githubusercontent.com/80868520/145879867-abea575a-8e7a-4d54-b64c-1cd696aa34c6.png">
 
 ## Feature Engineering and Preprocessing :
-In this [notebook](https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction%20-%20Feature%20Engineering.ipynb), 
+In this [notebook](https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction%20-%20Feature%20Engineering.ipynb) , 
 - For the categorical features, created dummy variables.
 - Removed Outliers in target variable and performed Boxcox transformation for price variable.
 <img width="1068" alt="Screen Shot 2021-12-13 at 4 18 06 PM" src="https://user-images.githubusercontent.com/80868520/145890372-d8513547-26ff-4ec1-8d59-3e9b2a345acc.png">
 ## Regression Models :
-Created models, which were then evaluated in this [notebook](https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Flight%20prediction%20model.ipynb),
+Created models, which were then evaluated in this [notebook](https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Flight%20prediction%20model.ipynb) ,
 - The data is split into two sections: training and validation. I use the training set to find the model and then the validation set to test it on unknown data.
 - Regression Machine learning models were used and seected best model which have lowest MAE , MSE, RMSE and high R2 score . Dcision Tree model were performd good in training and not in validation , where Random forest model performed best in both training and validation data . 
 - Hyperparameter tuning were performed on the Random Forest model and test it on unknown data.
