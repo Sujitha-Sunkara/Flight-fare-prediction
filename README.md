@@ -41,6 +41,7 @@ Majority if the flighhts fare lie in range of 3000 to 18000
 - There is a positive correlation between the number of stops and price , Price go high when the total stops increases.
 <img width="791" alt="Screen Shot 2021-12-13 at 2 58 19 PM" src="https://user-images.githubusercontent.com/80868520/145879794-dbd318cb-7b74-4e57-ab8d-de2de957296a.png">
 The flights in the early morning time has highest price
+
 ### Flights count from source to destination:
 <img width="834" alt="Screen Shot 2021-12-13 at 2 59 01 PM" src="https://user-images.githubusercontent.com/80868520/145879889-cbe044e6-4d04-442b-8ec6-7156d1880707.png">
 ### Top 10 Costliest routes
@@ -60,7 +61,7 @@ Route	Price
 <img width="286" alt="Screen Shot 2021-12-13 at 2 58 08 PM" src="https://user-images.githubusercontent.com/80868520/145879867-abea575a-8e7a-4d54-b64c-1cd696aa34c6.png">
 
 ## Feature Engineering and Preprocessing :
-In this [notebook])(https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction%20-%20Feature%20Engineering.ipynb), 
+In this [notebook](https://github.com/Sujitha-Sunkara/Flight-fare-prediction/blob/main/Fare%20prediction%20-%20Feature%20Engineering.ipynb), 
 - For the categorical features, created dummy variables.
 - Removed Outliers in target variable and performed Boxcox transformation for price variable.
 <img width="1068" alt="Screen Shot 2021-12-13 at 4 18 06 PM" src="https://user-images.githubusercontent.com/80868520/145890372-d8513547-26ff-4ec1-8d59-3e9b2a345acc.png">
@@ -78,9 +79,17 @@ Regression models performance
 
 After hyperparametertyuning the Random forest regression and fitting with best params , the results are:
 MAE: 734.6088
+
+
 MSE: 2132548.6219
+
+
 RMSE: 1460.3248
+
+
 R2 score: 0.88
+
+
 Which explains 88% of the data fits the model.
 
 
